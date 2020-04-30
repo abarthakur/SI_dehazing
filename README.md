@@ -91,7 +91,7 @@ We had two experiments to evaluate the variation with the ``patch_size`` and ``s
 * Qualitative evaluation : We pick 5 images at random from the test set and plot the transmission maps and dehazed images in a grid format.
 * Quantative evaluation : We compute PSNR and SSIM metrics over the test set for both transmission maps and dehazed images.
 
-Evaluation can be found in this [notebook](/src/evaluate_network.ipynb).
+Evaluation can be found in [src/evaluate_network.ipynb](https://nbviewer.jupyter.org/github/abarthakur/SI_dehazing/blob/master/src/evaluate_network.ipynb).
 
 #### Patch size
 
