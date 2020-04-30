@@ -2,7 +2,7 @@
 
 This project proposes a novel auxiliary loss for the task of transmission estimation in CNN based single image dehazing methods. This auxiliary loss models surface smoothness by aligning the normals within a small patch with the objective of removing surface artifacts from appearing on the transmission map, such as the one shown below as it hinders haze removal.
 
-![Comparison with and without smoothness loss](/conver_example.png)
+![Comparison with and without smoothness loss](/cover_example.png)
 
 ## Table of Contents
 
