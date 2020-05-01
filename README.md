@@ -13,7 +13,8 @@ This project proposes a novel auxiliary loss for the task of transmission estima
 2. [Experiments](#experiments)
 3. [Observations](#observations)
 4. [Conclusion](#conclusion)
-5. [References](#references)
+5. [Credits](#credits)
+6. [References](#references)
 
 ## Project Description
 
@@ -169,6 +170,11 @@ Evaluation can be found in [src/evaluate_network.ipynb](https://nbviewer.jupyter
  * Qualititave examination of the predicted transmission maps do show that the smoothness loss does "smoothen" the transmission map - however there is not much success in removing actual surface features. Alternative formulations of the smoothness loss should be explored as a first step in solving this problem.
 * **Overall we conclude that current results are satisfactory enough to merit further work in this direction.**
 
+## Credits
+
+* This project and the basic proposed approach of using a smoothness prior with MSCNN architecture was initially conceived as part of a group project completed for Computer Vision using Machine Learning taught by Dr Arijit Sur at IIT Guwahati in 2017.
+* The group members for that project are - Aneesh Barthakur, Prateek Vij, Hritik Jain, Darshit Patel
+* **However the current formulation of smoothness loss, usage of gradient similarity based update, the current codebase and experiments were created by Aneesh Barthakur (me) independently at a later time.** The initial codebase was in tensorflow, and this one is in pytorch.
 
 ## References
 
